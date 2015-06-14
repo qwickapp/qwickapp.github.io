@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html{
+  height: 100%;
+}
+body {
+	font-family: "Lato", sans-serif;
+	height: 100%;
+	font-weight: 300;}
+#intro{
+	width: 100%;
+	height: 420pt;
+	background-color: #3B80F5;
+	text-align: center;
+}
+.nav{
+	text-align: right;
+	width: 100%;
+	padding-bottom: 75pt;
+}
+.nav p{
+	
+	font-family: "Lato", sans-serif;
+	font-size: 14pt;
+	padding-right: 24pt;
+	padding-top: 20pt;
+	position: relative;
+	float: right;
+}
+.nav p a:hover{
+	opacity: 1;
+}
+.nav p a{
+	color: #FFF;
+	opacity: 0.6;
+	text-decoration: none;
+}
+.app_group{
+	width: 100%;
+	text-align: center;
+}
+.app_group h1{
+	font-family: "Montserrat", sans-serif;
+	font-size: 32pt;
+	color: #FFF;
+	text-align: center;
+	margin-top: 8pt;
+}
+.app_group img{
+	max-width: 120pt;
+	max-height: 120pt;
+}
+.headertitle{
+	color: #FFF;
+	font-size: 18pt;
+	text-align: center;
+	width: 100%;
+	margin-top: 6pt;
+	letter-spacing: 0.5pt;
+}
+
+#how{
+	width: 100%;
+	height: 420pt;
+	text-align: center;
+	z-index: -1;
+	overflow: hidden;
+}
+#how h1{
+	font-family: "Lato",sans-serif;
+	font-weight: 400;
+	font-size: 20pt;
+	letter-spacing: 0.5pt;
+	color: #3B80F5;
+	margin-top: 40pt;
+}
+#how p{
+	font-size: 16pt;
+	color: #A9A9A9;
+	margin-top: 4pt;
+	letter-spacing: 0.5pt;
+}
+#how img{
+	width: 175pt;
+	margin-top: 16pt;
+}
+#bottom{
+	width: 100%;
+	height: 30pt;
+	background-color: #F6F9FF;
+	border-top: 2pt solid #f0f0f0;
+	text-align: center;
+	padding-top: 5pt;
+	z-index: 10;
+}
+
+/* General button style (reset) */
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 20px 60px;
+	display: inline-block;
+	margin: 50px 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Button 2 */
+.btn-2 {
+	background: #fff;
+	color: #3B80F5;
+	box-shadow: 0 6px #ddd;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+} 
+
+/* Button 2c */
+.btn-2c {
+	border-radius: 5px;
+}
+
+.btn-2c:hover {
+	box-shadow: 0 4px #ddd;
+	top: 2px;
+}
+
+.btn-2c:active {
+	box-shadow: 0 0 #ddd;
+	top: 6px;
+}
