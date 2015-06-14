@@ -10,7 +10,9 @@ html{
 body {
 	font-family: "Lato", sans-serif;
 	height: 100%;
-	font-weight: 300;}
+	font-weight: 300;
+	font-size: 150%;
+}
 #intro{
 	width: 100%;
 	height: 420pt;
@@ -25,7 +27,7 @@ body {
 .nav p{
 	
 	font-family: "Lato", sans-serif;
-	font-size: 14pt;
+	font-size: 0.7em;
 	padding-right: 24pt;
 	padding-top: 20pt;
 	position: relative;
@@ -45,7 +47,7 @@ body {
 }
 .app_group h1{
 	font-family: "Montserrat", sans-serif;
-	font-size: 32pt;
+	font-size: 1.6em;
 	color: #FFF;
 	text-align: center;
 	margin-top: 8pt;
@@ -56,7 +58,7 @@ body {
 }
 .headertitle{
 	color: #FFF;
-	font-size: 18pt;
+	font-size: 0.9em;
 	text-align: center;
 	width: 100%;
 	margin-top: 6pt;
@@ -73,13 +75,13 @@ body {
 #how h1{
 	font-family: "Lato",sans-serif;
 	font-weight: 400;
-	font-size: 20pt;
+	font-size: 1em;
 	letter-spacing: 0.5pt;
 	color: #3B80F5;
 	margin-top: 40pt;
 }
 #how p{
-	font-size: 16pt;
+	font-size: 0.8em;
 	color: #A9A9A9;
 	margin-top: 4pt;
 	letter-spacing: 0.5pt;
@@ -102,13 +104,13 @@ body {
 .btn {
 	border: none;
 	font-family: inherit;
-	font-size: inherit;
+	font-size: 0.75em;
 	color: inherit;
 	background: none;
 	cursor: pointer;
-	padding: 20px 60px;
+	padding: 15px 40px;
 	display: inline-block;
-	margin: 50px 20px;
+	margin: 60px 20px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 700;
@@ -128,27 +130,34 @@ body {
 	transition: all 0.3s;
 }
 
-/* Button 2 */
-.btn-2 {
+/* Button 3 */
+.btn-3 {
+	background: #6299F7;
+	color: #fff;
+}
+
+.btn-3:hover {
 	background: #fff;
 	color: #3B80F5;
-	box-shadow: 0 6px #ddd;
-	-webkit-transition: none;
-	-moz-transition: none;
-	transition: none;
-} 
-
-/* Button 2c */
-.btn-2c {
-	border-radius: 5px;
 }
 
-.btn-2c:hover {
-	box-shadow: 0 4px #ddd;
-	top: 2px;
+
+.btn-3:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	line-height: 3;
+	font-size: 140%;
+	width: 60px;
+}
+/* Button 3b */
+.btn-3b {
+	padding: 15px 40px;
+	border-radius: 4px;
 }
 
-.btn-2c:active {
-	box-shadow: 0 0 #ddd;
-	top: 6px;
+.btn-3b:before {
+	border-right: 2px solid rgba(255,255,255,0.5);
 }
+
